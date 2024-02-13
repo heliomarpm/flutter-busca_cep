@@ -13,7 +13,7 @@ class EnderecoRepositoryImpl implements EnderecoRepository {
     try {
       final result = await Dio().get('https://viacep.com.br/ws/$cep/json');
       return EnderecoModel.fromMap(result.data);
-    } on DioError catch (e) {
+    } on DioException catch (e) {
       log('Erro ao buscar CEP', error: e);
       throw Exception('Erro ao buscar o CEP');
     }
