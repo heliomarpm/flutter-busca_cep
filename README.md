@@ -12,8 +12,8 @@ Um pequeno demonstrativo de como Buscar CEP.
 - Dio '^5.4.0'
 
 ## Screenshots
+<img src="screen.gif" width="300px" />
 
-![App Screenshot](screen.gif)
 
 ## Getting Started
 
