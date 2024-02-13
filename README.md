@@ -1,10 +1,19 @@
-# busca_cep
+# Flutter - Buscar CEP
 
-A new Flutter project.
+Um pequeno demonstrativo de como Buscar CEP.
 
 ## Tutorial
 
 [Rodrigo Rahman](https://www.youtube.com/watch?v=Zqz_76JYPSc)
+
+## Stack
+
+- Flutter '>=3.2.6 <4.0.0'
+- Dio '^5.4.0'
+
+## Screenshots
+
+![App Screenshot](screen.gif)
 
 ## Getting Started
 
@@ -18,4 +27,3 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
-
